@@ -26,7 +26,7 @@
 
 ---
 
-## 🚀 Мои навыки
+## 🚀 Мои навыки детально
 - **Backend**: FastAPI, SQLAlchemy, aiomysql, PostgreSQL, MySQL, SQLite  
 - **API & интеграции**: REST API, WebSockets, OpenAI API, парсеры, интеграция с Telegram/Discord  
 - **Автоматизация**: Playwright, Selenium  
