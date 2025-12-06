@@ -38,7 +38,7 @@
 ---
 
 ## 📌 Избранные проекты
-🔹 Atlas AI
+🔹 [Atlas AI](https://atlas-ai.ru/)
 
 Полноценный сервис на FastAPI с системой оплаты и управлением токенами OpenAI.
 Функционал:
@@ -51,9 +51,7 @@
 
 стабильный продакшен-бэкенд с адаптивным UI.
 
-🔹 URL Shortener Service
-
-GitHub: https://github.com/akiraliebert/Url-Shortener-Service
+🔹 [URL Shortener Service](https://github.com/akiraliebert/Url-Shortener-Service)
 
 Высокопроизводительный сервис для сокращения ссылок.
 Технологии и особенности:
@@ -68,9 +66,7 @@ Redis для кеширования и ускорения редиректов
 
 полностью разворачивается в Docker (docker-compose)
 
-🔹 Task Management API
-
-GitHub: https://github.com/yourusername/task-management-api
+🔹 [Task Management API](https://github.com/akiraliebert/task-management-api)
 
 Backend-сервис управления задачами, реализованный на Django.
 Стек и возможности:
