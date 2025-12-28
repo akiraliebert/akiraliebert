@@ -1,127 +1,107 @@
-# Привет! 👋 Я Иван
+# Backend Engineer (Python)
 
-Я — **Python Backend Developer** с опытом 2+ лет в создании API, интеграций с внешними сервисами и автоматизации процессов.  
-Люблю писать чистый и надёжный код, работать с серверами и оптимизировать производительность приложений.  
+Backend developer with production experience in building API-driven and real-time systems.
+Focused on architecture, transactional integrity and maintainable codebases.
 
-💻 Основной стек: **FastAPI**, **SQLAlchemy**, **PostgreSQL**, **Docker**  
-🌍 Предпочитаю удалённую работу и проекты с реальной практической пользой  
-📅 6 лет в кодинге на python, 2 года прод разработки.
+## Core stack
+Python, FastAPI, SQLAlchemy, PostgreSQL, Redis, Docker
 
----
-
-## 🛠 Мой стек
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-646464?style=flat&logo=python&logoColor=white)
-![Aiogram](https://img.shields.io/badge/Aiogram-2CA5E0?style=flat&logo=telegram&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![aiomysql](https://img.shields.io/badge/aiomysql-007ACC?style=flat&logo=python&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=microsoft&logoColor=white)
+## Areas of expertise
+- Backend architecture and clean separation of concerns
+- Async REST and WebSocket APIs
+- Database design and transaction management
+- Integration with external APIs (payments, AI, messaging platforms)
+- Containerization and CI pipelines
 
 ---
 
-## 🚀 Мои навыки детально
-- **Backend**: FastAPI, SQLAlchemy, aiomysql, PostgreSQL, MySQL, SQLite  
-- **API & интеграции**: REST API, WebSockets, OpenAI API, парсеры, интеграция с Telegram/Discord  
-- **Автоматизация**: Playwright, Selenium  
-- **Базы данных**: проектирование, оптимизация запросов, миграции, ORM  
-- **Серверная работа**: Linux, настройка VPN/прокси, конфигурирование серверов, панелей управления, деплой проектов  
-- **DevOps основы**: Docker, CI/CD (GitHub Actions)  
-- **Софт-скиллы**: английский на уровне чтения и понимания документации, умение быстро разбираться в новой технологии
-
----
-
-## 📌 Избранные проекты
+## 📌 Selected Projects
 🔹 [Atlas AI](https://atlas-ai.ru/)
 
-Полноценный сервис на FastAPI с системой оплаты и управлением токенами OpenAI.
-Функционал:
+Production backend service for AI-powered applications.
 
-поддержка нескольких моделей ChatGPT,
+- FastAPI-based service with payment system and OpenAI token management
 
-загрузка/чтение большинства типов файлов,
+- Multi-model support (ChatGPT family)
 
-личный кабинет с подсчётом токенов,
+- File upload and processing pipeline
 
-стабильный продакшен-бэкенд с адаптивным UI.
+- User dashboard with usage accounting
 
-🔹 [Chat Backend (FastAPI + WebSockets + Redis)](https://github.com/akiraliebert/chat_application)
+- Deployed and operating in a production environment
 
-Production-grade backend чата с реальным временем, спроектированный с упором на архитектуру и масштабируемость.
+---
 
-Ключевые особенности:
+🔹 [Chat Backend (FastAPI, WebSockets, Redis)](https://github.com/akiraliebert/chat_application)
 
-Clean Architecture / DDD (domain, application, infrastructure, interfaces)
+Production-grade real-time chat backend focused on scalability and architecture.
 
-WebSocket-чат с комнатами, системными и пользовательскими сообщениями
+- Clean Architecture / DDD with explicit domain boundaries
 
-Redis Pub/Sub как event bus для масштабирования WS
+- WebSocket messaging with rooms and system events
 
-JWT-аутентификация (access + refresh, iat)
+- Redis Pub/Sub as an event bus for horizontal scaling
 
-асинхронный стек: FastAPI, SQLAlchemy 2.0 async, PostgreSQL, Redis
+- JWT authentication (access / refresh tokens)
 
-строгая транзакционная логика через Unit of Work
+- Async stack: FastAPI, SQLAlchemy 2.0 async, PostgreSQL, Redis
 
-unit и integration тесты для домена, use cases, Redis и WS-инфраструктуры
+- Transaction management via Unit of Work
 
-полная контейнеризация через Docker (dev и test окружения)
+- Unit and integration tests for domain and infrastructure layers
 
-Проект сфокусирован на архитектурной корректности и расширяемости, с осознанным упрощением e2e-тестов WebSocket-слоя как non-production требования.
+- Fully dockerized dev and test environments
+
+---
 
 🔹 [E-commerce Backend (FastAPI)](https://github.com/akiraliebert/ecommerce-api)
 
-Полноценный backend интернет-магазина с упором на чистую архитектуру и бизнес-логику.
-Ключевые особенности:
+Backend system for an e-commerce platform with emphasis on business logic and consistency.
 
-Clean Architecture / DDD (domain, application, infrastructure, web)
+- Clean Architecture / DDD (domain, application, infrastructure, web)
 
-JWT-аутентификация (access + refresh токены)
+- JWT authentication (access / refresh)
 
-корзина, заказы, инвентарь, оформление и оплата заказов
+- Core business flows: cart, orders, inventory, checkout
 
-транзакционная логика через Unit of Work
+- Transactional business logic via Unit of Work
 
-unit / integration / e2e тесты
+- Unit, integration and e2e tests
 
-асинхронный стек (FastAPI, SQLAlchemy 2.0 async, PostgreSQL)
+- Async stack with PostgreSQL
 
-полная контейнеризация через Docker
+- Dockerized for development and deployment
+
+---
 
 🔹 [URL Shortener Service](https://github.com/akiraliebert/Url-Shortener-Service)
 
-Высокопроизводительный сервис для сокращения ссылок.
-Технологии и особенности:
+High-performance URL shortening service.
 
-FastAPI
+- FastAPI backend with PostgreSQL
 
-PostgreSQL
+- Redis caching for low-latency redirects
 
-Redis для кеширования и ускорения редиректов
+- Collision-safe short link generation
 
-генерация коротких ссылок, статистика, защита от коллизий
+- Access statistics
 
-полностью разворачивается в Docker (docker-compose)
+- Fully deployable via Docker Compose
+
+---
 
 🔹 [Task Management API](https://github.com/akiraliebert/task-management-api)
 
-Backend-сервис управления задачами, реализованный на Django.
-Стек и возможности:
+Backend service for task and category management.
 
-Django + Django REST Framework
+- Django + Django REST Framework
 
-Django ORM
+- Isolated data access per user
 
-изоляция доступа: каждый пользователь видит только свои категории и задачи
+- Task statuses, deadlines, progress tracking and filtering
 
-статусы, прогресс, дедлайны, фильтрация
+- Authentication and authorization
 
-авторизация/регистрация
+- Dockerized for local development and deployment
 
-контейнеризация через Docker для удобного запуска и деплоя
+---
