@@ -6,12 +6,22 @@ Focused on architecture, transactional integrity and maintainable codebases.
 ## Core stack
 Python, FastAPI, SQLAlchemy, PostgreSQL, Redis, Docker
 
+
 ## Areas of expertise
 - Backend architecture and clean separation of concerns
 - Async REST and WebSocket APIs
 - Database design and transaction management
 - Integration with external APIs (payments, AI, messaging platforms)
 - Containerization and CI pipelines
+
+## Additional experience
+- Web automation and scraping (Playwright, Selenium, BeautifulSoup)
+- Integrations and HTTP-based services (requests, third-party APIs)
+- Telegram bots and async messaging (Aiogram)
+- Backend development with Django
+- Relational databases: MySQL
+- Linux-based environments, server configuration
+- Network setup: VPN and proxy configuration
 
 ---
 
