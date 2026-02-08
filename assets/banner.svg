@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 230" width="850" height="230">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-text" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="850" height="230" fill="#0d1117"/>
+
+  <!-- Subtle horizontal backbone traces -->
+  <line x1="0" y1="55" x2="850" y2="55" stroke="#00d4ff" stroke-opacity="0.06" stroke-width="1"/>
+  <line x1="0" y1="115" x2="850" y2="115" stroke="#7b2ff7" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="0" y1="175" x2="850" y2="175" stroke="#00d4ff" stroke-opacity="0.06" stroke-width="1"/>
+
+  <!-- ==================== LEFT NETWORK CONNECTIONS ==================== -->
+  <line x1="45" y1="45" x2="120" y2="30" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="45" y1="45" x2="38" y2="115" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="38" y1="115" x2="110" y2="115" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="38" y1="115" x2="50" y2="190" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="50" y1="190" x2="130" y2="190" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="120" y1="30" x2="110" y2="115" stroke="#7b2ff7" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="120" y1="30" x2="195" y2="45" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="110" y1="115" x2="190" y2="125" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="110" y1="115" x2="130" y2="190" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="130" y1="190" x2="200" y2="195" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="195" y1="45" x2="190" y2="125" stroke="#7b2ff7" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="195" y1="45" x2="265" y2="60" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="190" y1="125" x2="260" y2="170" stroke="#7b2ff7" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="190" y1="125" x2="200" y2="195" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="265" y1="60" x2="260" y2="170" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="0.6"/>
+
+  <!-- ==================== RIGHT NETWORK CONNECTIONS ==================== -->
+  <line x1="805" y1="45" x2="730" y2="30" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="805" y1="45" x2="812" y2="115" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="812" y1="115" x2="740" y2="115" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="812" y1="115" x2="800" y2="190" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="800" y1="190" x2="720" y2="190" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="730" y1="30" x2="740" y2="115" stroke="#7b2ff7" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="730" y1="30" x2="655" y2="45" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="740" y1="115" x2="660" y2="125" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="740" y1="115" x2="720" y2="190" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="720" y1="190" x2="650" y2="195" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="655" y1="45" x2="660" y2="125" stroke="#7b2ff7" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="655" y1="45" x2="585" y2="60" stroke="#00d4ff" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="660" y1="125" x2="590" y2="170" stroke="#7b2ff7" stroke-opacity="0.2" stroke-width="0.7"/>
+  <line x1="660" y1="125" x2="650" y2="195" stroke="#7b2ff7" stroke-opacity="0.15" stroke-width="0.6"/>
+  <line x1="585" y1="60" x2="590" y2="170" stroke="#00d4ff" stroke-opacity="0.15" stroke-width="0.6"/>
+
+  <!-- ==================== CROSS CONNECTIONS (behind text) ==================== -->
+  <line x1="265" y1="60" x2="585" y2="60" stroke="#00d4ff" stroke-opacity="0.07" stroke-width="0.8" stroke-dasharray="4,6"/>
+  <line x1="260" y1="170" x2="590" y2="170" stroke="#7b2ff7" stroke-opacity="0.07" stroke-width="0.8" stroke-dasharray="4,6"/>
+
+  <!-- ==================== LEFT NETWORK NODES ==================== -->
+  <circle cx="45" cy="45" r="3" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="38" cy="115" r="2.5" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="190" r="3" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="30" r="4" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="110" cy="115" r="4" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" begin="0.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="130" cy="190" r="3" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.8s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="195" cy="45" r="3.5" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="190" cy="125" r="3.5" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.3s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="195" r="2.5" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.6s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="265" cy="60" r="3" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="260" cy="170" r="3" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ==================== RIGHT NETWORK NODES ==================== -->
+  <circle cx="805" cy="45" r="3" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="812" cy="115" r="2.5" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.5s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="190" r="3" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="730" cy="30" r="4" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" begin="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="740" cy="115" r="4" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.2s" begin="1.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="190" r="3" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.8s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="655" cy="45" r="3.5" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" begin="1.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="660" cy="125" r="3.5" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3.3s" begin="0.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="195" r="2.5" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.6s" begin="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="585" cy="60" r="3" fill="#7b2ff7" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" begin="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="590" cy="170" r="3" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ==================== SIGNAL DOTS (animated along paths) ==================== -->
+  <!-- Signal 1: upper left diagonal -->
+  <circle r="2" fill="#00d4ff" filter="url(#glow)" opacity="0.9">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M45,45 L120,30 L195,45 L265,60"/>
+  </circle>
+  <!-- Signal 2: lower left -->
+  <circle r="1.5" fill="#7b2ff7" filter="url(#glow)" opacity="0.8">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M50,190 L130,190 L200,195"/>
+  </circle>
+  <!-- Signal 3: middle left -->
+  <circle r="1.5" fill="#00d4ff" filter="url(#glow)" opacity="0.7">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M38,115 L110,115 L190,125"/>
+  </circle>
+  <!-- Signal 4: upper right diagonal -->
+  <circle r="2" fill="#00d4ff" filter="url(#glow)" opacity="0.9">
+    <animateMotion dur="4s" begin="2s" repeatCount="indefinite" path="M805,45 L730,30 L655,45 L585,60"/>
+  </circle>
+  <!-- Signal 5: lower right -->
+  <circle r="1.5" fill="#7b2ff7" filter="url(#glow)" opacity="0.8">
+    <animateMotion dur="3.5s" begin="1.5s" repeatCount="indefinite" path="M800,190 L720,190 L650,195"/>
+  </circle>
+  <!-- Signal 6: cross top -->
+  <circle r="1.5" fill="#00d4ff" filter="url(#glow)" opacity="0.6">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M265,60 L585,60"/>
+  </circle>
+  <!-- Signal 7: cross bottom (reverse direction) -->
+  <circle r="1.5" fill="#7b2ff7" filter="url(#glow)" opacity="0.6">
+    <animateMotion dur="6s" begin="3s" repeatCount="indefinite" path="M590,170 L260,170"/>
+  </circle>
+
+  <!-- ==================== DECORATIVE LINES ==================== -->
+  <line x1="340" y1="75" x2="510" y2="75" stroke="#00d4ff" stroke-opacity="0.12" stroke-width="0.5"/>
+  <line x1="350" y1="162" x2="500" y2="162" stroke="#7b2ff7" stroke-opacity="0.12" stroke-width="0.5"/>
+
+  <!-- ==================== TEXT ==================== -->
+  <!-- Name glow -->
+  <text x="425" y="100" text-anchor="middle" fill="#00d4ff" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="4" filter="url(#glow-text)" opacity="0.35">IVAN LIEBERT</text>
+  <!-- Name -->
+  <text x="425" y="100" text-anchor="middle" fill="#e6edf3" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="4">IVAN LIEBERT</text>
+  <!-- Subtitle -->
+  <text x="425" y="128" text-anchor="middle" fill="#00d4ff" font-family="'Courier New', Consolas, monospace" font-size="13" letter-spacing="4" opacity="0.9">BACKEND ENGINEER</text>
+  <!-- Tagline -->
+  <text x="425" y="152" text-anchor="middle" fill="#7b2ff7" font-family="'Courier New', Consolas, monospace" font-size="11" letter-spacing="2" opacity="0.7">Python &#xB7; FastAPI &#xB7; Clean Architecture</text>
+
+</svg>
