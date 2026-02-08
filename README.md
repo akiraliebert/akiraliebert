@@ -66,20 +66,48 @@ Every line of code I write is built to last.
 
 <br/>
 
-<div align="center">
-  <a href="https://github.com/akiraliebert/chat_application">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akiraliebert&repo=chat_application&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b2ff7&text_color=c9d1d9" width="49%" />
-  </a>
-  <a href="https://github.com/akiraliebert/ecommerce-api">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akiraliebert&repo=ecommerce-api&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b2ff7&text_color=c9d1d9" width="49%" />
-  </a>
-  <a href="https://github.com/akiraliebert/Url-Shortener-Service">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akiraliebert&repo=Url-Shortener-Service&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b2ff7&text_color=c9d1d9" width="49%" />
-  </a>
-  <a href="https://github.com/akiraliebert/task-management-api">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=akiraliebert&repo=task-management-api&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=7b2ff7&text_color=c9d1d9" width="49%" />
-  </a>
-</div>
+<table>
+<tr>
+<td width="50%">
+
+**[`chat_application`](https://github.com/akiraliebert/chat_application)**
+
+Real-time chat backend — Clean Architecture / DDD, WebSocket messaging with rooms, Redis Pub/Sub for horizontal scaling, JWT auth
+
+`FastAPI` `SQLAlchemy` `PostgreSQL` `Redis` `Docker`
+
+</td>
+<td width="50%">
+
+**[`ecommerce-api`](https://github.com/akiraliebert/ecommerce-api)**
+
+E-commerce backend — Clean Architecture / DDD, transactional checkout, inventory management, Unit of Work pattern
+
+`FastAPI` `SQLAlchemy` `PostgreSQL` `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[`Url-Shortener-Service`](https://github.com/akiraliebert/Url-Shortener-Service)**
+
+High-performance URL shortener — Redis caching for low-latency redirects, collision-safe generation, access statistics
+
+`FastAPI` `PostgreSQL` `Redis` `Docker`
+
+</td>
+<td width="50%">
+
+**[`task-management-api`](https://github.com/akiraliebert/task-management-api)**
+
+Task management API — per-user data isolation, task statuses, deadlines, progress tracking and filtering
+
+`Django` `DRF` `PostgreSQL` `Docker`
+
+</td>
+</tr>
+</table>
 
 ---
 
