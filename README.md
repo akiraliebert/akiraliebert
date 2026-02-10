@@ -46,7 +46,7 @@ Every line of code I write is built to last.
 ### `> git log --stat`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akiraliebert&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&icon_color=7b2ff7" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=akiraliebert&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&icon_color=7b2ff7" width="49%" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=akiraliebert&hide_border=true&background=0d1117&ring=00d4ff&fire=7b2ff7&currStreakLabel=00d4ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" width="49%" alt="GitHub Streak" />
 </div>
 
