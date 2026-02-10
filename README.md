@@ -70,13 +70,24 @@ Every line of code I write is built to last.
 <tr>
 <td width="50%">
 
-**[`chat_application`](https://github.com/akiraliebert/chat_application)**
+**[`monitoring_analytics_api`](https://github.com/akiraliebert/monitoring_analytics_api)**
 
-Real-time chat backend — Clean Architecture / DDD, WebSocket messaging with rooms, Redis Pub/Sub for horizontal scaling, JWT auth
+Time-series analytics backend — TimescaleDB with continuous aggregates, Celery async ingestion pipeline, p95/p99 alerting, Token Bucket rate limiting
 
-`FastAPI` `SQLAlchemy` `PostgreSQL` `Redis` `Docker`
+`Flask` `TimescaleDB` `Redis` `Celery` `Docker`
 
 </td>
+<td width="50%">
+
+**[`event_driven_notification_system`](https://github.com/akiraliebert/event_driven_notification_system)**
+
+Event-driven notification microservices — Kafka broker, multi-channel delivery (Email/SMS/Push), priority queues, retry with exponential backoff
+
+`Flask` `Kafka` `Celery` `Redis` `PostgreSQL` `Docker`
+
+</td>
+</tr>
+<tr>
 <td width="50%">
 
 **[`ecommerce-api`](https://github.com/akiraliebert/ecommerce-api)**
@@ -84,6 +95,15 @@ Real-time chat backend — Clean Architecture / DDD, WebSocket messaging with ro
 E-commerce backend — Clean Architecture / DDD, transactional checkout, inventory management, Unit of Work pattern
 
 `FastAPI` `SQLAlchemy` `PostgreSQL` `Docker`
+
+</td>
+<td width="50%">
+
+**[`chat_application`](https://github.com/akiraliebert/chat_application)**
+
+Real-time chat backend — Clean Architecture, WebSocket messaging with rooms, Redis Pub/Sub for horizontal scaling, JWT auth
+
+`FastAPI` `SQLAlchemy` `PostgreSQL` `Redis` `Docker`
 
 </td>
 </tr>
