@@ -15,7 +15,7 @@ jobs:
       - name: Generate snake graph
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: akiraliebert
+          github_user_name: ivanliebert
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark

@@ -46,14 +46,14 @@ Every line of code I write is built to last.
 ### `> git log --stat`
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=akiraliebert&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&icon_color=7b2ff7" width="49%" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=akiraliebert&hide_border=true&background=0d1117&ring=00d4ff&fire=7b2ff7&currStreakLabel=00d4ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" width="49%" alt="GitHub Streak" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ivanliebert&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=c9d1d9&icon_color=7b2ff7" width="49%" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com?user=ivanliebert&hide_border=true&background=0d1117&ring=00d4ff&fire=7b2ff7&currStreakLabel=00d4ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" width="49%" alt="GitHub Streak" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=akiraliebert&bg_color=0d1117&color=c9d1d9&line=7b2ff7&point=00d4ff&area_color=7b2ff7&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ivanliebert&bg_color=0d1117&color=c9d1d9&line=7b2ff7&point=00d4ff&area_color=7b2ff7&area=true&hide_border=true" width="100%" alt="Activity Graph" />
 </div>
 
 ---
@@ -70,7 +70,7 @@ Every line of code I write is built to last.
 <tr>
 <td width="50%">
 
-**[`monitoring_analytics_api`](https://github.com/akiraliebert/monitoring_analytics_api)**
+**[`monitoring_analytics_api`](https://github.com/ivanliebert/monitoring_analytics_api)**
 
 Time-series analytics backend — TimescaleDB with continuous aggregates, Celery async ingestion pipeline, p95/p99 alerting, Token Bucket rate limiting
 
@@ -79,7 +79,7 @@ Time-series analytics backend — TimescaleDB with continuous aggregates, Celery
 </td>
 <td width="50%">
 
-**[`event_driven_notification_system`](https://github.com/akiraliebert/event_driven_notification_system)**
+**[`event_driven_notification_system`](https://github.com/ivanliebert/event_driven_notification_system)**
 
 Event-driven notification microservices — Kafka broker, multi-channel delivery (Email/SMS/Push), priority queues, retry with exponential backoff
 
@@ -90,7 +90,7 @@ Event-driven notification microservices — Kafka broker, multi-channel delivery
 <tr>
 <td width="50%">
 
-**[`ecommerce-api`](https://github.com/akiraliebert/ecommerce-api)**
+**[`ecommerce-api`](https://github.com/ivanliebert/ecommerce-api)**
 
 E-commerce backend — Clean Architecture / DDD, transactional checkout, inventory management, Unit of Work pattern
 
@@ -99,7 +99,7 @@ E-commerce backend — Clean Architecture / DDD, transactional checkout, invento
 </td>
 <td width="50%">
 
-**[`chat_application`](https://github.com/akiraliebert/chat_application)**
+**[`chat_application`](https://github.com/ivanliebert/chat_application)**
 
 Real-time chat backend — Clean Architecture, WebSocket messaging with rooms, Redis Pub/Sub for horizontal scaling, JWT auth
 
@@ -110,7 +110,7 @@ Real-time chat backend — Clean Architecture, WebSocket messaging with rooms, R
 <tr>
 <td width="50%">
 
-**[`Url-Shortener-Service`](https://github.com/akiraliebert/Url-Shortener-Service)**
+**[`Url-Shortener-Service`](https://github.com/ivanliebert/Url-Shortener-Service)**
 
 High-performance URL shortener — Redis caching for low-latency redirects, collision-safe generation, access statistics
 
@@ -119,7 +119,7 @@ High-performance URL shortener — Redis caching for low-latency redirects, coll
 </td>
 <td width="50%">
 
-**[`task-management-api`](https://github.com/akiraliebert/task-management-api)**
+**[`task-management-api`](https://github.com/ivanliebert/task-management-api)**
 
 Task management API — per-user data isolation, task statuses, deadlines, progress tracking and filtering
 
@@ -135,9 +135,9 @@ Task management API — per-user data isolation, task statuses, deadlines, progr
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akiraliebert/akiraliebert/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akiraliebert/akiraliebert/output/github-snake.svg" />
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/akiraliebert/akiraliebert/output/github-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ivanliebert/ivanliebert/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ivanliebert/ivanliebert/output/github-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/ivanliebert/ivanliebert/output/github-snake-dark.svg" width="100%" />
   </picture>
 </div>
 
